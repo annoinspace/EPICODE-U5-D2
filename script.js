@@ -6,4 +6,13 @@ let addLinkToNavbar = function () {
   navbar.appendChild(newLink)
 }
 
-addLinkToNavbar()
+// addLinkToNavbar()
+
+// Write a JavaScript functionality to change the color of the main heading title
+
+let changeMainHeadingColor = function () {
+  let mainHeading = document.querySelector("h1")
+  mainHeading.style.color = "lightseagreen"
+}
+
+// changeMainHeadingColor()
