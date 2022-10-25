@@ -1,5 +1,10 @@
 /* Write a selector to target the h1 in the first “hero” section */
 
-.container .jumbotron h1:first-child {
+.jumbotron h1:first-child {
   background-color: lightseagreen;
+}
+
+/* Write a selector to target every child of the navbar */
+.nav > span {
+  color: seagreen;
 }
