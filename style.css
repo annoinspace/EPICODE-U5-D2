@@ -15,9 +15,9 @@
 
 /* Write a selector to target the first blogpost */
 
-/* .blog-post .blog-post-meta:first-child + p {
+.container .blog-main .blog-post:first-of-type {
   color: red;
-} */
+}
 
 /* Write a selector to target the first blogpost <hr> and turn it red */
 
