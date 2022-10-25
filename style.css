@@ -1,5 +1,4 @@
 /* Write a selector to target the h1 in the first “hero” section */
-
 .jumbotron h1:first-child {
   background-color: lightseagreen;
 }
@@ -10,7 +9,12 @@
 }
 
 /* Write a selector to target the “continue reading…” inside the jumbotron */
-
 .jumbotron a {
   border: 1px solid seagreen;
+}
+
+/* Write a selector to target the first blogpost */
+
+.blog-post .blog-post-meta + p {
+  color: red;
 }
