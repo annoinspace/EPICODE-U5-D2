@@ -56,3 +56,8 @@ span:nth-child(12) { */ {
 .float-right:last-of-type {
   border: 1px solid seagreen;
 }
+
+/* Write a selector to target the “Newer” button at the bottom */
+.blog-pagination .btn:nth-child(2) {
+  background-color: pink;
+}
