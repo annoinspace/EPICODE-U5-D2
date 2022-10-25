@@ -1,0 +1,5 @@
+/* Write a selector to target the h1 in the first “hero” section */
+
+.container .jumbotron h1:first-child {
+  background-color: lightseagreen;
+}
