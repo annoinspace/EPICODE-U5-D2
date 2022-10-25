@@ -27,16 +27,21 @@
 
 /* Write a selector to target the “even” links in the navbar */
 
-.nav span:nth-child(2),
-span:nth-child(4),
+.nav span:nth-child(even)
+/* span:nth-child(4),
 span:nth-child(6),
 span:nth-child(8),
 span:nth-child(10),
-span:nth-child(12) {
+span:nth-child(12) { */ {
   background-color: lightskyblue;
 }
 
 /* Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives ) */
 .col-md-4 div:nth-child(2) li {
   background-color: beige;
+}
+
+/* Write a selector to target the second blog-post author */
+.container .blog-main .blog-post:nth-child(3) .blog-post-meta a {
+  background-color: pink;
 }
