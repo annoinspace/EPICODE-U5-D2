@@ -15,6 +15,12 @@
 
 /* Write a selector to target the first blogpost */
 
-.blog-post .blog-post-meta + p {
+/* .blog-post .blog-post-meta:first-child + p {
   color: red;
+} */
+
+/* Write a selector to target the first blogpost <hr> and turn it red */
+
+.container .blog-post hr {
+  border: 1px solid red;
 }
