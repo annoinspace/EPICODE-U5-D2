@@ -16,3 +16,11 @@ let changeMainHeadingColor = function () {
 }
 
 // changeMainHeadingColor()
+
+// Write a JavaScript functionality to change the background of the jumbotron
+let changeJumbotronColor = function () {
+  let jumbotron = document.querySelector(".jumbotron")
+  jumbotron.style.backgroundColor = "pink"
+}
+
+// changeJumbotronColor()
