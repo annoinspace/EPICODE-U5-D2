@@ -24,3 +24,16 @@ let changeJumbotronColor = function () {
 }
 
 // changeJumbotronColor()
+
+//Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere”
+//section in the aside element. It should happen when the page loads, automatically
+
+window.onload = function () {
+  const twitterList = document.getElementsByTagName("ol")[2]
+  const twitter = twitterList.getElementsByTagName("li")[1]
+
+  twitterList.removeChild(twitter)
+}
+
+//Write a JavaScript functionality to remove the first
+//50 characters in the first paragraph for every blog post
