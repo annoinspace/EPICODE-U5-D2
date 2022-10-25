@@ -51,3 +51,8 @@ span:nth-child(12) { */ {
 .container .blog-main .blog-post:nth-child(4) ul li:nth-child(2) {
   background-color: lightgreen;
 }
+
+/* Write a selector to target the “back to top” link you can find at the bottom-right corner */
+.float-right:last-of-type {
+  border: 1px solid seagreen;
+}
