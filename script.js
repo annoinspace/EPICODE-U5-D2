@@ -37,3 +37,16 @@ window.onload = function () {
 
 //Write a JavaScript functionality to remove the first
 //50 characters in the first paragraph for every blog post
+let remove50Words = function () {
+  let arrayOfParagraphs = document.querySelectorAll(
+    "div.blog-post > p:nth-child(3)"
+  )
+
+  for (let i = 0; i < arrayOfParagraphs.length; i++) {
+    let string = arrayOfParagraphs[i].innerText
+    let newString = string.slice(50)
+    arrayOfParagraphs[i].innerText = newString
+  }
+}
+
+remove50Words()
