@@ -16,11 +16,27 @@
 /* Write a selector to target the first blogpost */
 
 .container .blog-main .blog-post:first-of-type {
-  color: red;
+  border: 2px dotted pink;
 }
 
 /* Write a selector to target the first blogpost <hr> and turn it red */
 
 .container .blog-post hr {
   border: 1px solid red;
+}
+
+/* Write a selector to target the “even” links in the navbar */
+
+.nav span:nth-child(2),
+span:nth-child(4),
+span:nth-child(6),
+span:nth-child(8),
+span:nth-child(10),
+span:nth-child(12) {
+  background-color: lightskyblue;
+}
+
+/* Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives ) */
+.col-md-4 div:nth-child(2) li {
+  background-color: beige;
 }
