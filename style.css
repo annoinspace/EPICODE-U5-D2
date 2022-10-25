@@ -45,3 +45,9 @@ span:nth-child(12) { */ {
 .container .blog-main .blog-post:nth-child(3) .blog-post-meta a {
   background-color: pink;
 }
+
+/* Write a selector to target the second <li> in the third blog-post unordered-list */
+
+.container .blog-main .blog-post:nth-child(4) ul li:nth-child(2) {
+  background-color: lightgreen;
+}
