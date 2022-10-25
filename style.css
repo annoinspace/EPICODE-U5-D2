@@ -8,3 +8,9 @@
 .nav > span {
   color: seagreen;
 }
+
+/* Write a selector to target the “continue reading…” inside the jumbotron */
+
+.jumbotron a {
+  border: 1px solid seagreen;
+}
